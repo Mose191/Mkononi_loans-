@@ -1,8 +1,9 @@
 import { Navigate } from "react-router-dom";
 import { useAuth } from "./AuthContext";
+import BottomNav from "./BottomNav";
 
 export default function ProtectedRoute({ children }) {
-  const { authUser, authLoading } = useAuth();
+  const { authUser, authLoading, signOut } = useAuth();
 
   if (authLoading) {
     return (
@@ -11,6 +12,13 @@ export default function ProtectedRoute({ children }) {
       </div>
     );
   }
+
   if (!authUser) return <Navigate to="/login" replace />;
-  return children;
+
+  return (
+    <>
+      {children}
+      <BottomNav onLogout={signOut} />
+    </>
+  );
 }
