@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" width="960" height="240" role="img" aria-label="Mkononi - Loan In Your Hands">
+  <rect width="960" height="240" fill="#0b1029"/>
+  <g transform="translate(36 36) scale(0.3125)">
+    <path d="M112 388V150l144 168 144-168v238" fill="none" stroke="#ffffff" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="256" cy="196" r="44" fill="#2dd4bf"/>
+    <circle cx="256" cy="196" r="28" fill="none" stroke="#0b1029" stroke-width="8" opacity="0.8"/>
+  </g>
+  <text x="228" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="88" font-weight="700" fill="#ffffff">Mkononi</text>
+  <text x="232" y="174" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="500" fill="#2dd4bf" letter-spacing="1">Loan In Your Hands</text>
+</svg>
